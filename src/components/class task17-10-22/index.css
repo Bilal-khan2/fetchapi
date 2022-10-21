@@ -1,0 +1,36 @@
+div.main{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 112px;
+    margin: 200px auto;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid red;
+}
+div.increase{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+}
+div.decrease{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    cursor: pointer;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.lit{
+    background-color: white;
+    color :black;
+}
+.room{
+    width: 100%;
+    height: 100vh;
+}
